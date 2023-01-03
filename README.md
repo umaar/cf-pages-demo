@@ -1,3 +1,11 @@
+# to deploy
+
+```sh
+git push origin main
+```
+
+Check out the GH Action for the preview URL
+
 # eleventy-base-blog
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
@@ -80,4 +88,3 @@ DEBUG=* npx @11ty/eleventy
   - `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
   - `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
 - `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
-
